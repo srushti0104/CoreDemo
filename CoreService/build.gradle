@@ -54,7 +54,7 @@ afterEvaluate {
             release(MavenPublication) {
                 components.getByName('release')
                 groupId = 'com.github.srushti0104'
-                artifactId = 'AppsOnAir-Core'
+                artifactId = 'CoreDemo'
                 version = '1.0'
             }
         }

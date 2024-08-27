@@ -12,6 +12,7 @@ class CoreService {
         @JvmStatic
         fun getAppId(context: Context): String {
             return try {
+                // clean gradle
                 val appInfo = context.packageManager.getApplicationInfo(
                     context.packageName, PackageManager.GET_META_DATA)
 

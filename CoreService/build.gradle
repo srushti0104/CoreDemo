@@ -58,7 +58,7 @@ afterEvaluate {
                 components.getByName('release')
                 groupId = 'com.github.srushti0104'
                 artifactId = 'CoreDemo'
-                version = '1.0'
+                version = '2.0.10'
             }
         }
     }
